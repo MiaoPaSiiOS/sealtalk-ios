@@ -10,7 +10,7 @@
 #import "RCDUltraGroupManager.h"
 #import "RCDUtilities.h"
 #import "RCDGroupManager.h"
-#import <RongIMKit/RCIM.h>
+#import <RongCloudOpenSource/RongIMKit.h>
 
 @interface RCDUGChannelSettingViewModel()
 @property (nonatomic, copy, readwrite) NSString *groupID;

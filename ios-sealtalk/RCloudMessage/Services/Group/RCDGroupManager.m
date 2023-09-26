@@ -10,7 +10,7 @@
 #import "RCDGroupAPI.h"
 #import "RCDDBManager.h"
 #import "RCDUtilities.h"
-#import <RongIMKit/RongIMKit.h>
+#import <RongCloudOpenSource/RongIMKit.h>
 #import "RCDIMService.h"
 #import "RCDCommonString.h"
 #import "RCDGroupNotificationMessage.h"

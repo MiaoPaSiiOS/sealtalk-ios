@@ -8,12 +8,12 @@
 
 #import "RCDDebugConversationTagController.h"
 #import "RCDTableView.h"
-#import <RongIMKit/RongIMKit.h>
+#import <RongCloudOpenSource/RongIMKit.h>
 #import "RCDDebugSelectView.h"
 #import <MBProgressHUD/MBProgressHUD.h>
 #import "UIView+MBProgressHUD.h"
 #import "RCDDebubMessageUIdListView.h"
-#import <RongIMLibCore/RongIMLibCore.h>
+#import <RongCloudOpenSource/RongIMKit.h>
 @interface RCDDebugConversationTagController ()<UITableViewDelegate,UITableViewDataSource, RCDDebugSelectViewDelegate, RCTagDelegate, RCConversationTagDelegate>
 @property (nonatomic, strong) NSMutableArray *logList;
 @property (nonatomic, strong) RCDTableView *tableView;

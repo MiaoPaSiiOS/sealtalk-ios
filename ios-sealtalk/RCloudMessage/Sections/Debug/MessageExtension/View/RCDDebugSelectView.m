@@ -9,7 +9,7 @@
 #import "RCDDebugSelectView.h"
 #import "RCDUtilities.h"
 #import "UIColor+RCColor.h"
-#import <RongIMKit/RongIMKit.h>
+#import <RongCloudOpenSource/RongIMKit.h>
 @interface RCDDebugSelectView()<UICollectionViewDelegate,UICollectionViewDataSource>
 @property (nonatomic, strong) NSArray *titleList;
 @end

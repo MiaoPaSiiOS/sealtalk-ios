@@ -9,7 +9,7 @@
 #import "RCDSquareCell.h"
 #import "RCDUtilities.h"
 #import "UIColor+RCColor.h"
-#import <RongIMKit/RongIMKit.h>
+#import <RongCloudOpenSource/RongIMKit.h>
 @implementation RCDSquareCell
 - (id)initWithIconName:(NSString *)iconName TitleName:(NSString *)titleName {
     self = [super init];

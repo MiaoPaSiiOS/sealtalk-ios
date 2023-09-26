@@ -9,7 +9,7 @@
 #import "RCDDebugChatroomViewController.h"
 #import <Masonry/Masonry.h>
 #import "RCDDebugChatRoomCell.h"
-#import <RongIMKit/RongIMKit.h>
+#import <RongCloudOpenSource/RongIMKit.h>
 #import "RCDDebugAlertView.h"
 #import <RongChatRoom/RongChatRoom.h>
 

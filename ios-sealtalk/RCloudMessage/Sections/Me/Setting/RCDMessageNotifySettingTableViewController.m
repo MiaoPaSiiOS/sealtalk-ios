@@ -10,7 +10,7 @@
 #import <MBProgressHUD/MBProgressHUD.h>
 #import "RCDMessageNoDisturbSettingController.h"
 #import "UIColor+RCColor.h"
-#import <RongIMKit/RongIMKit.h>
+#import <RongCloudOpenSource/RongIMKit.h>
 #import "RCDUserInfoManager.h"
 #import "UIView+MBProgressHUD.h"
 #define RCDReceiveNotification 200

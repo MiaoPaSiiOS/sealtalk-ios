@@ -12,8 +12,7 @@
 #import <AVFoundation/AVFoundation.h>
 #import "UIView+MBProgressHUD.h"
 #import "RCDQRInfoHandle.h"
-#import <RongIMKit/RCKitCommonDefine.h>
-#import <RongIMKit/RCAlertView.h>
+#import <RongCloudOpenSource/RongIMKit.h>
 @interface RCDScanQRCodeController () <AVCaptureMetadataOutputObjectsDelegate, UIImagePickerControllerDelegate,
                                        UINavigationControllerDelegate, RCDScannerViewDelegate>
 

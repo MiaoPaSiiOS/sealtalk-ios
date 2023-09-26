@@ -7,7 +7,7 @@
 //
 
 #import "RCDUserSetting.h"
-#import <RongIMKit/RongIMKit.h>
+#import <RongCloudOpenSource/RongIMKit.h>
 @implementation RCDUserSetting
 - (instancetype)initWithJson:(NSDictionary *)json {
     if (self = [super init]) {

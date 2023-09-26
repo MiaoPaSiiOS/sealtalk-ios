@@ -7,7 +7,7 @@
 //
 
 #import "RCDQRInfoHandle.h"
-#import <RongIMKit/RongIMKit.h>
+#import <RongCloudOpenSource/RongIMKit.h>
 #import "RCDGroupJoinController.h"
 #import "RCDGroupManager.h"
 #import "RCDChatViewController.h"

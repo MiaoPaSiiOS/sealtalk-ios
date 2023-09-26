@@ -12,7 +12,7 @@
 #import "RCDUserGroupDetailViewController.h"
 #import "UIView+MBProgressHUD.h"
 #import "RCDUltraGroupManager.h"
-#import <RongIMLibCore/RongIMLibCore.h>
+#import <RongCloudOpenSource/RongIMKit.h>
 
 NSString *const RCDUserGroupChannelBelongViewIdentifier = @"RCDUserGroupChannelBelongViewIdentifier";
 

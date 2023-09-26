@@ -8,7 +8,7 @@
 
 #import "RCDPersonInfoView.h"
 #import "RCDFriendInfo.h"
-#import <RongIMKit/RongIMKit.h>
+#import <RongCloudOpenSource/RongIMKit.h>
 #import "UIColor+RCColor.h"
 #import <Masonry/Masonry.h>
 #import <SDWebImage/UIImageView+WebCache.h>

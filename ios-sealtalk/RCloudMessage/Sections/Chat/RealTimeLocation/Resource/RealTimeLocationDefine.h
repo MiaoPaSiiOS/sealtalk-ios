@@ -8,8 +8,8 @@
 
 #ifndef RealTimeLocationDefine_h
 #define RealTimeLocationDefine_h
-#import <RongIMLibCore/RongIMLibCore.h>
-#import <RongIMKit/RCKitCommonDefine.h>
+#import <RongCloudOpenSource/RongIMKit.h>
+#import <RongCloudOpenSource/RongIMKit.h>
 #define RTLLocalizedString(key) NSLocalizedStringFromTable(key, @"RealTimeLocation", nil)
 
 #define RTLScreenWidth [UIScreen mainScreen].bounds.size.width

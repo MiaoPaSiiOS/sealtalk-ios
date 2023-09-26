@@ -8,7 +8,7 @@
 
 #import "RCDAddressBookFriendsViewController.h"
 #import "RCDSearchBar.h"
-#import <RongIMKit/RongIMKit.h>
+#import <RongCloudOpenSource/RongIMKit.h>
 #import <Masonry/Masonry.h>
 #import "RCDAddressBookManager.h"
 #import "RCDUnableGetContactsView.h"

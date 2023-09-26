@@ -6,7 +6,7 @@
 //  Copyright (c) 2015年 RongCloud. All rights reserved.
 //
 
-#import <RongIMKit/RongIMKit.h>
+#import <RongCloudOpenSource/RongIMKit.h>
 
 @interface RCDChatViewController : RCConversationViewController
 @property (nonatomic, assign) BOOL needPopToRootView;

@@ -24,7 +24,7 @@
 #import "UIImage+RCImage.h"
 #import "RCDIMService.h"
 #import "RCDUserListCollectionView.h"
-#import <RongIMKit/RongIMKit.h>
+#import <RongCloudOpenSource/RongIMKit.h>
 #import "RCDCommonString.h"
 #import "RCDQRCodeController.h"
 #import "RCDUploadManager.h"

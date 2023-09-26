@@ -9,7 +9,7 @@
 #import "RCDDotterViewController.h"
 #import <Masonry/Masonry.h>
 #import "UIView+MBProgressHUD.h"
-#import <RongIMKit/RongIMKit.h>
+#import <RongCloudOpenSource/RongIMKit.h>
 
 @interface RCDDotterViewController ()
 @property(nonatomic, strong) RCDownloadItem *item;

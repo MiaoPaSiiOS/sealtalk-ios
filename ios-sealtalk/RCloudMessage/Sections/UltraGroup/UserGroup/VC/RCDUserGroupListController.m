@@ -13,7 +13,7 @@
 #import "RCDUserGroupDetailViewController.h"
 #import "RCDUltraGroupManager.h"
 #import "UIView+MBProgressHUD.h"
-#import <RongIMLibCore/RongIMLibCore.h>
+#import <RongCloudOpenSource/RongIMKit.h>
 
 NSString *const RCDUserGroupListViewIdentifier = @"RCDUserGroupListViewIdentifier";
 @interface RCDUserGroupListController ()<UITableViewDelegate, UITableViewDataSource,RCUserGroupStatusDelegate>

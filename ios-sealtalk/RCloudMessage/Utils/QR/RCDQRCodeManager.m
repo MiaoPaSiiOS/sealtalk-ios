@@ -9,8 +9,7 @@
 #import "RCDQRCodeManager.h"
 #import <Photos/PHPhotoLibrary.h>
 #import <ZXingObjC/ZXingObjC.h>
-#import <RongIMKit/RCKitCommonDefine.h>
-#import <RongIMKit/RCAlertView.h>
+#import <RongCloudOpenSource/RongIMKit.h>
 @implementation RCDQRCodeManager
 + (UIImage *)getQRCodeImage:(NSString *)content {
     NSError *error = nil;

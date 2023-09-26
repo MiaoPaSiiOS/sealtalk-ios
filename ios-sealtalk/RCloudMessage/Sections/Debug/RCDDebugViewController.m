@@ -7,8 +7,7 @@
 //
 
 #import "RCDDebugViewController.h"
-#import <RongIMLib/RongIMLib.h>
-#import <RongIMKit/RCAlertView.h>
+#import <RongCloudOpenSource/RongIMKit.h>
 @interface RCDDebugViewController ()
 
 @property (nonatomic, strong) UILabel *offLineMessageTimeLabel;

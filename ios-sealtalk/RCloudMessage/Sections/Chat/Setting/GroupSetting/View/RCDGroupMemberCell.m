@@ -11,7 +11,7 @@
 #import "RCDUserInfoManager.h"
 #import <SDWebImage/UIImageView+WebCache.h>
 #import "RCDUtilities.h"
-#import <RongIMKit/RongIMKit.h>
+#import <RongCloudOpenSource/RongIMKit.h>
 @interface RCDGroupMemberCell ()
 @property (nonatomic, strong) UILabel *rightLabel;
 

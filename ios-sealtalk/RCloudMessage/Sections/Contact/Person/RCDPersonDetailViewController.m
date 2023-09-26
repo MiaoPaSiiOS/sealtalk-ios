@@ -10,12 +10,12 @@
 #import "RCDPersonInfoView.h"
 #import "UIColor+RCColor.h"
 #import <Masonry/Masonry.h>
-#import <RongIMKit/RongIMKit.h>
+#import <RongCloudOpenSource/RongIMKit.h>
 #import "RCDDBManager.h"
 #import "RCDUtilities.h"
 #import "RCDFriendRemarksViewController.h"
 #import "RCDChatViewController.h"
-#import <RongCallKit/RongCallKit.h>
+#import <RongCloudOpenSource/RongCallKit.h>
 #import "UIView+MBProgressHUD.h"
 #import "RCDUserInfoManager.h"
 #import "RCDPersonDetailCell.h"

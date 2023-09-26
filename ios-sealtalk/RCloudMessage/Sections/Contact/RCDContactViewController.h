@@ -7,7 +7,7 @@
 //
 
 #import "RCDTableView.h"
-#import <RongIMLib/RongIMLib.h>
+#import <RongCloudOpenSource/RongIMKit.h>
 #import "RCDViewController.h"
 
 @interface RCDContactViewController : RCDViewController

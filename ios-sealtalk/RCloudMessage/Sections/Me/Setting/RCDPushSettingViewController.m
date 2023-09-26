@@ -11,7 +11,7 @@
 #import "RCDCommonDefine.h"
 #import "RCDUIBarButtonItem.h"
 #import "UIColor+RCColor.h"
-#import <RongIMKit/RongIMKit.h>
+#import <RongCloudOpenSource/RongIMKit.h>
 #import "RCDTableView.h"
 @interface RCDPushSettingViewController () <UITableViewDelegate, UITableViewDataSource, UIPickerViewDelegate,
                                             UIPickerViewDataSource, RCDBaseSettingTableViewCellDelegate>

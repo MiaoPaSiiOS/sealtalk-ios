@@ -7,7 +7,7 @@
 //
 
 #import "RCDMessageNoDisturbSettingController.h"
-#import <RongIMKit/RongIMKit.h>
+#import <RongCloudOpenSource/RongIMKit.h>
 
 @interface RCDMessageNoDisturbSettingController ()
 @property (nonatomic, strong) NSIndexPath *indexPath;

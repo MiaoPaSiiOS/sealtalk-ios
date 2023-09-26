@@ -9,7 +9,7 @@
 #import "RCDMeDetailsCell.h"
 #import "RCDCommonDefine.h"
 #import "RCDUtilities.h"
-#import <RongIMKit/RongIMKit.h>
+#import <RongCloudOpenSource/RongIMKit.h>
 #import "RCDCommonString.h"
 #import "RCDSemanticContext.h"
 @implementation RCDMeDetailsCell

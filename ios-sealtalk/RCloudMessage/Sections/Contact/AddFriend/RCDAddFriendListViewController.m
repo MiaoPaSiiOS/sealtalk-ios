@@ -11,7 +11,7 @@
 #import <Masonry/Masonry.h>
 #import "UIColor+RCColor.h"
 #import "RCDQRCodeController.h"
-#import <RongIMKit/RongIMKit.h>
+#import <RongCloudOpenSource/RongIMKit.h>
 #import "RCDSearchBar.h"
 #import "RCDSearchFriendController.h"
 #import "RCDScanQRCodeController.h"

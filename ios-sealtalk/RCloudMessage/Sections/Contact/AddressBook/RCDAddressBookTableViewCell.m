@@ -11,7 +11,7 @@
 #import "RCDCommonDefine.h"
 #import "RCDFriendInfo.h"
 #import <SDWebImage/UIImageView+WebCache.h>
-#import <RongIMKit/RongIMKit.h>
+#import <RongCloudOpenSource/RongIMKit.h>
 #import <Masonry/Masonry.h>
 #import "RCDUtilities.h"
 #import "RCDSemanticContext.h"

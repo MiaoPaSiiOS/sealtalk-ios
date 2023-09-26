@@ -11,7 +11,7 @@
 //  Created by litao on 15/4/7.
 
 #import <Foundation/Foundation.h>
-#import <RongIMLib/RongIMLib.h>
+#import <RongCloudOpenSource/RongIMKit.h>
 
 @interface RCWKNotifier : NSObject <RCWatchKitStatusDelegate>
 + (instancetype)sharedWKNotifier;

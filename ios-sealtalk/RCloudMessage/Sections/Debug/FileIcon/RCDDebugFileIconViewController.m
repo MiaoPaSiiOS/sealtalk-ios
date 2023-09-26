@@ -6,8 +6,8 @@
 //  Copyright © 2022 RongCloud. All rights reserved.
 //
 
-#import <RongIMKit/RCKitConfig.h>
-#import <RongIMKit/RCKitUtility.h>
+#import <RongCloudOpenSource/RongIMKit.h>
+
 
 #import "RCDDebugFileIconViewController.h"
 

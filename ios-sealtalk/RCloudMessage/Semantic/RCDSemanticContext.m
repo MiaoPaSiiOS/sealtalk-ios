@@ -7,7 +7,7 @@
 //
 
 #import "RCDSemanticContext.h"
-#import <RongIMKit/RongIMKit.h>
+#import <RongCloudOpenSource/RongIMKit.h>
 @interface RCDPhotoPreviewCollectionViewFlowLayout : UICollectionViewFlowLayout
 
 @end

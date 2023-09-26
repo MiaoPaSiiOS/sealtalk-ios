@@ -9,7 +9,7 @@
 #import "RCDUserListCollectionView.h"
 #import "RCDUserListCollectionItem.h"
 #import "RCDUserInfoManager.h"
-#import <RongIMKit/RongIMKit.h>
+#import <RongCloudOpenSource/RongIMKit.h>
 #import "RCDUtilities.h"
 @interface RCDUserListCollectionView () <UICollectionViewDelegate, UICollectionViewDataSource>
 @property (nonatomic, strong) NSArray *userList;

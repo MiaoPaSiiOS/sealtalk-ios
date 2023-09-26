@@ -7,7 +7,7 @@
 //
 
 #import "RCDTableViewCell.h"
-#import <RongIMKit/RongIMKit.h>
+#import <RongCloudOpenSource/RongIMKit.h>
 static NSString *_Nullable RCDUltraGroupCellIdentifier = @"RCDUltraGroupCellIdentifier";
 
 NS_ASSUME_NONNULL_BEGIN

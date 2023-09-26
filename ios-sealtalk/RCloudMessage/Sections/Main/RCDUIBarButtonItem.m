@@ -7,7 +7,7 @@
 //
 
 #import "RCDUIBarButtonItem.h"
-#import <RongIMKit/RongIMKit.h>
+#import <RongCloudOpenSource/RongIMKit.h>
 #import "RCDSemanticContext.h"
 
 @interface RCDUIBarButtonItem ()

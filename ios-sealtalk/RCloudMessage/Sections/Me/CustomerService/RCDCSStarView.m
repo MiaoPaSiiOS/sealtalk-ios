@@ -7,7 +7,7 @@
 //
 
 #import "RCDCSStarView.h"
-#import <RongIMKit/RongIMKit.h>
+#import <RongCloudOpenSource/RongIMKit.h>
 #import "RCDCommonDefine.h"
 #import "RCDUtilities.h"
 @interface RCDCSStarView ()

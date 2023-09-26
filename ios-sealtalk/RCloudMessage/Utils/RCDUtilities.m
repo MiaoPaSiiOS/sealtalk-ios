@@ -13,7 +13,7 @@
 #import "RCDContactsInfo.h"
 #import "RCDGroupManager.h"
 #import "RCDUserInfoManager.h"
-#import <RongIMKit/RongIMKit.h>
+#import <RongCloudOpenSource/RongIMKit.h>
 #import <Photos/Photos.h>
 
 @implementation RCDUtilities

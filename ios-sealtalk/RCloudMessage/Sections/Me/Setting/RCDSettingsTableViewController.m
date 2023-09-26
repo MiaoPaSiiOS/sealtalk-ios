@@ -15,7 +15,7 @@
 #import "RCDUIBarButtonItem.h"
 #import "UIColor+RCColor.h"
 #import "RCDLoginManager.h"
-#import <RongIMKit/RongIMKit.h>
+#import <RongCloudOpenSource/RongIMKit.h>
 #import "RCDCommonString.h"
 #import "RCDCleanChatHistoryViewController.h"
 #import "RCDChatBackgroundViewController.h"

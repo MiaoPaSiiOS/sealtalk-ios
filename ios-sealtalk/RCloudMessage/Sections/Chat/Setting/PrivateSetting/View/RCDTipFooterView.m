@@ -9,7 +9,7 @@
 #import "RCDTipFooterView.h"
 #import "UIColor+RCColor.h"
 #import "RCDUtilities.h"
-#import <RongIMLib/RongIMLib.h>
+#import <RongCloudOpenSource/RongIMKit.h>
 #import <Masonry/Masonry.h>
 
 static const NSInteger __RCDTipLabelTopSpace = 5;

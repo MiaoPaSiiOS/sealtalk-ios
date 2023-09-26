@@ -14,7 +14,7 @@
 #import <Masonry/Masonry.h>
 #import "RCDUtilities.h"
 #import "UIView+MBProgressHUD.h"
-#import <RongIMKit/RongIMKit.h>
+#import <RongCloudOpenSource/RongIMKit.h>
 #import "NormalAlertView.h"
 #import "RCDCopyGroupController.h"
 #import "RCDGroupLeftUserListController.h"

@@ -8,7 +8,7 @@
 
 #import "RCDChatNotificationMessage.h"
 #import "RCDUserInfoManager.h"
-#import <RongIMKit/RongIMKit.h>
+#import <RongCloudOpenSource/RongIMKit.h>
 #import "RCDGroupManager.h"
 NSString *const RCDChatNotificationOpenScreenNtf = @"openScreenNtf";
 NSString *const RCDChatNotificationCloseScreenNtf = @"closeScreenNtf";

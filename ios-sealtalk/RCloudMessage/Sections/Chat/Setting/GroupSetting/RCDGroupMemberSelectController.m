@@ -10,7 +10,7 @@
 #import "RCDContactTableViewCell.h"
 #import "RCDPersonDetailViewController.h"
 #import "RCDUIBarButtonItem.h"
-#import <RongIMKit/RongIMKit.h>
+#import <RongCloudOpenSource/RongIMKit.h>
 #import "RCDUserInfoManager.h"
 #import "RCDGroupMemberSelectCell.h"
 #import "RCDGroupManager.h"

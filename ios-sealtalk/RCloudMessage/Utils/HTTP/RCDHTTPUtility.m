@@ -11,7 +11,7 @@
 #import <AFNetworking/AFNetworking.h>
 #import "RCDCommonDefine.h"
 #import "RCDEnvironmentContext.h"
-#import <RongIMLibCore/RongIMLibCore.h>
+#import <RongCloudOpenSource/RongIMKit.h>
 #import <SDWebImage/SDWebImage.h>
 
 #define HTTP_SUCCESS 200

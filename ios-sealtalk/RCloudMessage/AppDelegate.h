@@ -6,7 +6,7 @@
 //  Copyright (c) 2014年 RongCloud. All rights reserved.
 //
 
-#import <RongIMKit/RongIMKit.h>
+#import <RongCloudOpenSource/RongIMKit.h>
 #import <UIKit/UIKit.h>
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate, RCIMConnectionStatusDelegate, RCIMReceiveMessageDelegate, RCIMMessageInterceptor>

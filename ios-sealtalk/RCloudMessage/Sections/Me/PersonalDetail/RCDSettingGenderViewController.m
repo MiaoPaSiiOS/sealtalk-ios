@@ -9,7 +9,7 @@
 #import "RCDSettingGenderViewController.h"
 #import "UIColor+RCColor.h"
 #import "RCDCommonString.h"
-#import <RongIMKit/RongIMKit.h>
+#import <RongCloudOpenSource/RongIMKit.h>
 #import "RCDUserInfoManager.h"
 #import "UIView+MBProgressHUD.h"
 

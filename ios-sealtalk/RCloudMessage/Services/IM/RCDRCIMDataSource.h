@@ -7,8 +7,8 @@
 //
 
 #import <Foundation/Foundation.h>
-#import <RongContactCard/RongContactCard.h>
-#import <RongCallKit/RongCallKit.h>
+#import <RongCloudOpenSource/RongContactCard.h>
+#import <RongCloudOpenSource/RongCallKit.h>
 
 #define RCDDataSource [RCDRCIMDataSource sharedInstance]
 

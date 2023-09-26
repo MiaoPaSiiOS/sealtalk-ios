@@ -9,7 +9,7 @@
 #import "RCDSetSealTalkNumViewController.h"
 #import "UIColor+RCColor.h"
 #import <Masonry/Masonry.h>
-#import <RongIMKit/RongIMKit.h>
+#import <RongCloudOpenSource/RongIMKit.h>
 #import "RCDUserInfoManager.h"
 #import <SDWebImage/UIImageView+WebCache.h>
 #import "RCDCommonString.h"

@@ -10,7 +10,7 @@
 #import <MBProgressHUD/MBProgressHUD.h>
 #import "RealTimeLocationDefine.h"
 #import <SDWebImage/UIImageView+WebCache.h>
-#import <RongIMKit/RongIMKit.h>
+#import <RongCloudOpenSource/RongIMKit.h>
 @implementation RTLUtilities
 MBProgressHUD *hud;
 

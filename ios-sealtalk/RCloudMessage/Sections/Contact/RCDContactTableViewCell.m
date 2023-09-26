@@ -8,7 +8,7 @@
 
 #import "RCDContactTableViewCell.h"
 #import "UIColor+RCColor.h"
-#import <RongIMKit/RongIMKit.h>
+#import <RongCloudOpenSource/RongIMKit.h>
 #import <Masonry/Masonry.h>
 #import "RCDCommonString.h"
 #import <SDWebImage/UIImageView+WebCache.h>

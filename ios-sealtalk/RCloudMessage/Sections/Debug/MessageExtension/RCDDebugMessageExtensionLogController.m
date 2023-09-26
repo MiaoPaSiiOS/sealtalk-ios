@@ -8,7 +8,7 @@
 
 #import "RCDDebugMessageExtensionLogController.h"
 #import "RCDTableView.h"
-#import <RongIMKit/RongIMKit.h>
+#import <RongCloudOpenSource/RongIMKit.h>
 #import "RCDDebugSelectView.h"
 #import <MBProgressHUD/MBProgressHUD.h>
 #import "UIView+MBProgressHUD.h"

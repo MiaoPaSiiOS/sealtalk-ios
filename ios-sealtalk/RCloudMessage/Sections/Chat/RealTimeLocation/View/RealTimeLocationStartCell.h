@@ -6,7 +6,7 @@
 //  Copyright (c) 2015年 RongCloud. All rights reserved.
 //
 
-#import <RongIMKit/RongIMKit.h>
+#import <RongCloudOpenSource/RongIMKit.h>
 
 #define RealTimeLocationStartCellIndentifier @"realTimeLocationStartCellIndentifier"
 @interface RealTimeLocationStartCell : RCMessageCell

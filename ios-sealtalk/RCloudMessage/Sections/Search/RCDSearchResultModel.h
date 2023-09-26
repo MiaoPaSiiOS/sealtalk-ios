@@ -8,7 +8,7 @@
 
 #import "RCDSearchDataManager.h"
 #import <Foundation/Foundation.h>
-#import <RongIMKit/RongIMKit.h>
+#import <RongCloudOpenSource/RongIMKit.h>
 @interface RCDSearchResultModel : NSObject
 //该字段需要单独设置，不会在 modelForMessage 设置
 @property (nonatomic, assign) RCDSearchType searchType;

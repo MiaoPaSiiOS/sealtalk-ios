@@ -6,7 +6,7 @@
 //  Copyright © 2022 RongCloud. All rights reserved.
 //
 
-#import <RongIMKit/RongIMKit.h>
+#import <RongCloudOpenSource/RongIMKit.h>
 #import "RCDUltraGroupManager.h"
 #define RCDLeftSpace 66
 

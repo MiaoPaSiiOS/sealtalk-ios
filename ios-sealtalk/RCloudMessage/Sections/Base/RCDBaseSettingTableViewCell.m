@@ -9,7 +9,7 @@
 #import "RCDBaseSettingTableViewCell.h"
 #import "UIColor+RCColor.h"
 #import <SDWebImage/UIImageView+WebCache.h>
-#import <RongIMKit/RongIMKit.h>
+#import <RongCloudOpenSource/RongIMKit.h>
 #import "RCDUtilities.h"
 #import "RCDSemanticContext.h"
 @interface RCDBaseSettingTableViewCell ()

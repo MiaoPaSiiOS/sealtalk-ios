@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import <RongIMKit/RongIMKit.h>
+#import <RongCloudOpenSource/RongIMKit.h>
 @interface RCDCSSolveView : UIView
 
 @property (nonatomic, copy) void (^isSolveBlock)(RCCSResolveStatus solveStatus);

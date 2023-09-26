@@ -11,7 +11,7 @@
 #import "RCDUserInfoManager.h"
 #import "RCDUIBarButtonItem.h"
 #import <Masonry/Masonry.h>
-#import <RongIMKit/RongIMKit.h>
+#import <RongCloudOpenSource/RongIMKit.h>
 #import "RCDSetupRemarkView.h"
 #import "RCDDescriptionView.h"
 #import "RCDPictureView.h"

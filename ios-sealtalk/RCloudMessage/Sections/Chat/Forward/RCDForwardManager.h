@@ -6,7 +6,7 @@
 //  Copyright © 2019 RongCloud. All rights reserved.
 //
 
-#import <RongIMKit/RongIMKit.h>
+#import <RongCloudOpenSource/RongIMKit.h>
 #import "RCDForwardAlertView.h"
 #import "RCDForwardCellModel.h"
 

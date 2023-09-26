@@ -10,7 +10,7 @@
 #import "RCDGroupInfo.h"
 #import "RCDUtilities.h"
 #import "RCDDBManager.h"
-#import <RongIMKit/RongIMKit.h>
+#import <RongCloudOpenSource/RongIMKit.h>
 #define RCDReceivePokeKey [NSString stringWithFormat:@"RCDReceivePokeKey=%@", [RCIM sharedRCIM].currentUserInfo.userId]
 @implementation RCDUserInfoManager
 

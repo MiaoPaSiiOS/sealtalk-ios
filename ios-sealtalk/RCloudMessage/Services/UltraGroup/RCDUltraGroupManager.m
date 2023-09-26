@@ -9,7 +9,7 @@
 #import "RCDUltraGroupManager.h"
 #import "RCDHTTPUtility.h"
 #import "RCDUtilities.h"
-#import <RongIMKit/RongIMKit.h>
+#import <RongCloudOpenSource/RongIMKit.h>
 #import "RCDUserInfoManager.h"
 #import "RCDDBManager.h"
 

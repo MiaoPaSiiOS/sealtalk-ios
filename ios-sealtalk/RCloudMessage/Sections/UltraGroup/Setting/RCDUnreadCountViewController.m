@@ -8,7 +8,7 @@
 
 #import "RCDUnreadCountViewController.h"
 #import "RCDUnreadCountParamController.h"
-#import <RongIMKit/RongIMKit.h>
+#import <RongCloudOpenSource/RongIMKit.h>
 #import "RCDUnreadCountView.h"
 #import "RCDUGSelectListViewController.h"
 #import "UIView+MBProgressHUD.h"

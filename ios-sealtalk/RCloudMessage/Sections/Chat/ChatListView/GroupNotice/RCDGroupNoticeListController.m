@@ -10,7 +10,7 @@
 #import "RCDGroupManager.h"
 #import "UIView+MBProgressHUD.h"
 #import "RCDGroupNoticeCell.h"
-#import <RongIMKit/RongIMKit.h>
+#import <RongCloudOpenSource/RongIMKit.h>
 #import "RCDCommonString.h"
 #import "NormalAlertView.h"
 #import "RCDGroupNotificationMessage.h"

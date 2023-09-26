@@ -10,7 +10,7 @@
 #import "RCDGroupSettingsTableViewCell.h"
 #import "UIImage+RCImage.h"
 #import "RCDUserListCollectionView.h"
-#import <RongIMKit/RongIMKit.h>
+#import <RongCloudOpenSource/RongIMKit.h>
 #import "RCDCommonString.h"
 #import "NormalAlertView.h"
 #import "RCDUltraGroupManager.h"

@@ -8,7 +8,7 @@
 
 #import "RCDSelectAddressBookViewController.h"
 #import "RCDSearchBar.h"
-#import <RongIMKit/RongIMKit.h>
+#import <RongCloudOpenSource/RongIMKit.h>
 #import <Masonry/Masonry.h>
 #import "RCDSelectAddressBookCell.h"
 #import "RCDAddressBookManager.h"

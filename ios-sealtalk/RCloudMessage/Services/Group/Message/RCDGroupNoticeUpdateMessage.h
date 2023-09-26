@@ -6,7 +6,7 @@
 //  Copyright © 2019 RongCloud. All rights reserved.
 //
 
-#import <RongIMLib/RongIMLib.h>
+#import <RongCloudOpenSource/RongIMKit.h>
 #import "RCDGroupNotice.h"
 extern NSString *_Nullable const RCDGroupMemberInvite;
 

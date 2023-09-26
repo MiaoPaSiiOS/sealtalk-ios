@@ -8,7 +8,7 @@
 
 #import <CoreLocation/CoreLocation.h>
 #import <MapKit/MapKit.h>
-#import <RongIMKit/RongIMKit.h>
+#import <RongCloudOpenSource/RongIMKit.h>
 #import <UIKit/UIKit.h>
 #import <RongLocation/RongLocation.h>
 /**

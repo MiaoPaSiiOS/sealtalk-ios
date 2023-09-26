@@ -6,7 +6,7 @@
 //  Copyright © 2022 RongCloud. All rights reserved.
 //
 
-#import <RongIMLibCore/RongIMLibCore.h>
+#import <RongCloudOpenSource/RongIMKit.h>
 
 NS_ASSUME_NONNULL_BEGIN
 

@@ -7,11 +7,9 @@
 //
 
 #import "RCDTranslationViewController.h"
-#import <RongIMKit/RCIM.h>
+#import <RongCloudOpenSource/RongIMKit.h>
 #import "RCDTranslationLanguageViewController.h"
 #import "RCTransationPersistModel.h"
-#import <RongIMKit/RCKitTranslationConfig.h>
-#import <RongIMKit/RCKitConfig.h>
 
 static NSString * const RCDTranslationCellIdentifier = @"RCDTranslationCellIdentifier";
 @interface RCDTranslationViewController ()

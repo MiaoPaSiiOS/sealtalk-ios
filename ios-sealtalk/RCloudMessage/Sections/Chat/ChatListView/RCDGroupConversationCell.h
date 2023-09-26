@@ -6,7 +6,7 @@
 //  Copyright © 2019 RongCloud. All rights reserved.
 //
 
-#import <RongIMKit/RongIMKit.h>
+#import <RongCloudOpenSource/RongIMKit.h>
 static NSString *_Nullable RCDGroupConversationCellIdentifier = @"RCDGroupConversationCellIdentifier";
 
 NS_ASSUME_NONNULL_BEGIN

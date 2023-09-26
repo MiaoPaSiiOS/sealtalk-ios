@@ -9,7 +9,7 @@
 #import "RCDContactSelectedTableViewCell.h"
 #import "RCDFriendInfo.h"
 #import <SDWebImage/UIImageView+WebCache.h>
-#import <RongIMKit/RongIMKit.h>
+#import <RongCloudOpenSource/RongIMKit.h>
 #import <Masonry/Masonry.h>
 #import "RCDUserInfoManager.h"
 #import "RCDUtilities.h"

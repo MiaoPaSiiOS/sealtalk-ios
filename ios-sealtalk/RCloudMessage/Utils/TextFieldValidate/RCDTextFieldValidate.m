@@ -7,7 +7,7 @@
 //
 #import "RCDTextFieldValidate.h"
 #import <UIKit/UIKit.h>
-#import <RongIMKit/RCAlertView.h>
+#import <RongCloudOpenSource/RongIMKit.h>
 @implementation RCDTextFieldValidate
 
 //验证手机号码

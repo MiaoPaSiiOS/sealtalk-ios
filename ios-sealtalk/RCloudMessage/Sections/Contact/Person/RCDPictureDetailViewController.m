@@ -12,7 +12,7 @@
 #import <SDWebImage/UIImageView+WebCache.h>
 #import "RCDUIBarButtonItem.h"
 #import "UIView+MBProgressHUD.h"
-#import <RongIMKit/RongIMKit.h>
+#import <RongCloudOpenSource/RongIMKit.h>
 
 @interface RCDPictureDetailViewController ()
 

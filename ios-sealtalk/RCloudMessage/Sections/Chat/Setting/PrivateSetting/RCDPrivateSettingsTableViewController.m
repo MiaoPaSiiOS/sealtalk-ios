@@ -12,7 +12,7 @@
 #import <SDWebImage/UIImageView+WebCache.h>
 #import "RCDUIBarButtonItem.h"
 #import "RCDIMService.h"
-#import <RongIMKit/RongIMKit.h>
+#import <RongCloudOpenSource/RongIMKit.h>
 #import "RCDUserInfoManager.h"
 #import "RCDUserListCollectionView.h"
 #import "RCDPersonDetailViewController.h"

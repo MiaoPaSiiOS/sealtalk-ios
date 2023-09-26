@@ -11,7 +11,7 @@
 #import "RCDChannelUserInfoCell.h"
 #import "RCDUGChannelSettingCell.h"
 #import "UIView+MBProgressHUD.h"
-#import <RongIMKit/RongIMKit.h>
+#import <RongCloudOpenSource/RongIMKit.h>
 #import "RCDUserGroupChannelBelongViewController.h"
 
 

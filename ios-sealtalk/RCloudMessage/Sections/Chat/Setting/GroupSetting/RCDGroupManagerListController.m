@@ -14,7 +14,7 @@
 #import "RCDGroupMemberSelectController.h"
 #import "RCDCommonString.h"
 #import "UIView+MBProgressHUD.h"
-#import <RongIMLib/RongIMLib.h>
+#import <RongCloudOpenSource/RongIMKit.h>
 #import "RCDUtilities.h"
 @interface RCDGroupManagerListController () <RCDGroupManagerCellDelegate>
 @property (nonatomic, strong) NSArray *managers;

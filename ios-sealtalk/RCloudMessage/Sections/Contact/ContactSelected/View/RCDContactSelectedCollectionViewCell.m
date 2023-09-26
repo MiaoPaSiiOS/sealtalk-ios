@@ -10,7 +10,7 @@
 #import "DefaultPortraitView.h"
 #import <SDWebImage/UIImageView+WebCache.h>
 #import <Masonry/Masonry.h>
-#import <RongIMKit/RongIMKit.h>
+#import <RongCloudOpenSource/RongIMKit.h>
 @implementation RCDContactSelectedCollectionViewCell
 
 - (instancetype)initWithFrame:(CGRect)frame {

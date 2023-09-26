@@ -7,7 +7,7 @@
 //
 
 #import "RCDTestMessage.h"
-#import <RongIMKit/RongIMKit.h>
+#import <RongCloudOpenSource/RongIMKit.h>
 
 /*!
  测试消息Cell

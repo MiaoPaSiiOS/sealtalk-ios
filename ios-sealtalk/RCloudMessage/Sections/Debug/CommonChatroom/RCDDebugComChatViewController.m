@@ -23,7 +23,7 @@
 #import "RCDCommonString.h"
 #import "RCDIMService.h"
 #import "RCDCustomerEmoticonTab.h"
-#import <RongContactCard/RongContactCard.h>
+#import <RongCloudOpenSource/RongContactCard.h>
 #import "RCDGroupManager.h"
 #import "RCDImageSlideController.h"
 #import "RCDForwardSelectedViewController.h"

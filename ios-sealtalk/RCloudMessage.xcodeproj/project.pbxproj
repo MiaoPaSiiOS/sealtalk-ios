@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 52;
+	objectVersion = 46;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -505,6 +505,13 @@
 			proxyType = 2;
 			remoteGlobalIDString = F78E0E8983D4F3E37920A5AFB2DDAA52;
 			remoteInfo = MBProgressHUD;
+		};
+		AFC783272AC18F91009D9FF2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 276599A1229E87B20074FAB2 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 120685EEE274B0263B643D5C7D2018BD;
+			remoteInfo = RongCloudOpenSource;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -1480,8 +1487,8 @@
 		000579FE27C60B110011D694 /* Translation */ = {
 			isa = PBXGroup;
 			children = (
-				000579FF27C60B110011D694 /* RCDTranslationManager.m */,
 				00057A0027C60B110011D694 /* RCDTranslationManager.h */,
+				000579FF27C60B110011D694 /* RCDTranslationManager.m */,
 			);
 			path = Translation;
 			sourceTree = "<group>";
@@ -1762,17 +1769,17 @@
 		1C836A4B283F3329007FABD2 /* RCDAlert */ = {
 			isa = PBXGroup;
 			children = (
+				1C836A4C283F3329007FABD2 /* RCDAlertAction.h */,
+				1C836A51283F3329007FABD2 /* RCDAlertAction.m */,
+				1C836A53283F3329007FABD2 /* RCDAlertAction+Handler.h */,
 				1C836A55283F3329007FABD2 /* RCDAlertBuilder.h */,
 				1C836A4E283F3329007FABD2 /* RCDAlertBuilder.m */,
 				1C836A54283F3329007FABD2 /* RCDAlertController.h */,
 				1C836A4F283F3329007FABD2 /* RCDAlertController.m */,
 				1C836A50283F3329007FABD2 /* RCDAlertView.h */,
 				1C836A56283F3329007FABD2 /* RCDAlertView.m */,
-				1C836A4C283F3329007FABD2 /* RCDAlertAction.h */,
-				1C836A51283F3329007FABD2 /* RCDAlertAction.m */,
 				1C836A52283F3329007FABD2 /* UIButton+AlertAction.h */,
 				1C836A4D283F3329007FABD2 /* UIButton+AlertAction.m */,
-				1C836A53283F3329007FABD2 /* RCDAlertAction+Handler.h */,
 			);
 			path = RCDAlert;
 			sourceTree = "<group>";
@@ -1780,10 +1787,10 @@
 		1C836A57283F3329007FABD2 /* SMHelper */ = {
 			isa = PBXGroup;
 			children = (
-				1C836A58283F3329007FABD2 /* RCDSMSDKHelper.h */,
-				1C836A5A283F3329007FABD2 /* RCDSMSDKHelper.m */,
 				1C836A59283F3329007FABD2 /* RCDSMSDKDelegate.h */,
 				1C836A5B283F3329007FABD2 /* RCDSMSDKDelegate.m */,
+				1C836A58283F3329007FABD2 /* RCDSMSDKHelper.h */,
+				1C836A5A283F3329007FABD2 /* RCDSMSDKHelper.m */,
 			);
 			path = SMHelper;
 			sourceTree = "<group>";
@@ -1842,6 +1849,7 @@
 				1BF9FE44293762AB007AB335 /* MMWormhole */,
 				276599A9229E87B20074FAB2 /* Pods-SealTalk */,
 				1BF9FE46293762AB007AB335 /* Pods-SealTalkNotificationService */,
+				AFC783282AC18F91009D9FF2 /* RongCloudOpenSource */,
 				279C1E8D22BB724D009FD15C /* SDWebImage */,
 				279C1E8F22BB724D009FD15C /* SSZipArchive */,
 				3B47890322B78F1C00D33F10 /* ZXingObjC */,
@@ -1852,17 +1860,17 @@
 		27AD2764229E6B06003C2680 /* Sections */ = {
 			isa = PBXGroup;
 			children = (
-				A25167442796AE5C00BA4BFD /* UltraGroup */,
+				27AD2F70229E721D003C2680 /* Base */,
 				A290703F229E7F61006BDAC7 /* Chat */,
 				3BC0C7B9229E79480079234F /* Contact */,
-				27AD2F97229E721E003C2680 /* Discovery */,
-				27AD2ECE229E721D003C2680 /* Me */,
-				27AD2FA1229E721E003C2680 /* Login */,
-				27AD2F52229E721D003C2680 /* Search */,
-				27AD2FB4229E721E003C2680 /* Main */,
 				27AD2F69229E721D003C2680 /* Debug */,
 				A29070B1229E8045006BDAC7 /* Demo */,
-				27AD2F70229E721D003C2680 /* Base */,
+				27AD2F97229E721E003C2680 /* Discovery */,
+				27AD2FA1229E721E003C2680 /* Login */,
+				27AD2FB4229E721E003C2680 /* Main */,
+				27AD2ECE229E721D003C2680 /* Me */,
+				27AD2F52229E721D003C2680 /* Search */,
+				A25167442796AE5C00BA4BFD /* UltraGroup */,
 			);
 			name = Sections;
 			path = RCloudMessage/Sections;
@@ -1949,28 +1957,28 @@
 		27AD2F70229E721D003C2680 /* Base */ = {
 			isa = PBXGroup;
 			children = (
-				270C241E22A4C88E000F22A2 /* RCDSearchBar.h */,
-				270C241922A4C88E000F22A2 /* RCDSearchBar.m */,
-				27AD2F72229E721D003C2680 /* RCDTableView.h */,
-				27AD2F86229E721E003C2680 /* RCDTableView.m */,
-				27AD2F8F229E721E003C2680 /* RCDTableViewController.h */,
-				27AD2F7C229E721D003C2680 /* RCDTableViewController.m */,
-				A2CEEFF12366DE50008BC233 /* RCDTableViewCell.h */,
-				A2CEEFF22366DE50008BC233 /* RCDTableViewCell.m */,
-				A2CEF0032366E3F7008BC233 /* RCDViewController.h */,
-				A2CEF0042366E3F7008BC233 /* RCDViewController.m */,
-				27AD2F73229E721D003C2680 /* RCDNoFriendView.h */,
-				27AD2F84229E721D003C2680 /* RCDNoFriendView.m */,
-				27AD2F74229E721D003C2680 /* RCDBaseSettingTableViewCell.h */,
-				27AD2F85229E721E003C2680 /* RCDBaseSettingTableViewCell.m */,
-				27AD2F7D229E721D003C2680 /* UITextViewAndPlaceholder.h */,
-				27AD2F8E229E721E003C2680 /* UITextViewAndPlaceholder.m */,
 				27AD2F8D229E721E003C2680 /* DefaultPortraitView.h */,
 				27AD2F7E229E721D003C2680 /* DefaultPortraitView.m */,
+				27AD2F74229E721D003C2680 /* RCDBaseSettingTableViewCell.h */,
+				27AD2F85229E721E003C2680 /* RCDBaseSettingTableViewCell.m */,
 				27AD2F83229E721D003C2680 /* RCDIndicateTextField.h */,
 				27AD2F92229E721E003C2680 /* RCDIndicateTextField.m */,
+				27AD2F73229E721D003C2680 /* RCDNoFriendView.h */,
+				27AD2F84229E721D003C2680 /* RCDNoFriendView.m */,
+				270C241E22A4C88E000F22A2 /* RCDSearchBar.h */,
+				270C241922A4C88E000F22A2 /* RCDSearchBar.m */,
 				A2B5729F24B4225F0065E313 /* RCDSearchController.h */,
 				A2B572A024B4225F0065E313 /* RCDSearchController.m */,
+				27AD2F72229E721D003C2680 /* RCDTableView.h */,
+				27AD2F86229E721E003C2680 /* RCDTableView.m */,
+				A2CEEFF12366DE50008BC233 /* RCDTableViewCell.h */,
+				A2CEEFF22366DE50008BC233 /* RCDTableViewCell.m */,
+				27AD2F8F229E721E003C2680 /* RCDTableViewController.h */,
+				27AD2F7C229E721D003C2680 /* RCDTableViewController.m */,
+				A2CEF0032366E3F7008BC233 /* RCDViewController.h */,
+				A2CEF0042366E3F7008BC233 /* RCDViewController.m */,
+				27AD2F7D229E721D003C2680 /* UITextViewAndPlaceholder.h */,
+				27AD2F8E229E721E003C2680 /* UITextViewAndPlaceholder.m */,
 			);
 			path = Base;
 			sourceTree = "<group>";
@@ -2449,19 +2457,19 @@
 		9C1193D1229CF0AE005407ED /* Services */ = {
 			isa = PBXGroup;
 			children = (
-				000579FE27C60B110011D694 /* Translation */,
-				A2C92F9827994CD40011C3F3 /* UltraGroup */,
 				3BB6CE0A22D743720007FFFB /* AddressBook */,
 				A2AD03F022D5D03300F8E64D /* Chat */,
-				9C119466229D4A13005407ED /* IM */,
-				9C22627122B3C6680044FF3D /* Upload */,
 				A2402F8B22B2374E00BF8F6A /* ChatRoom */,
-				9C21F43322A8F032003AB415 /* Group */,
-				9C1193D2229CF0AE005407ED /* UserInfo */,
-				9C226D10229FD5C800F49FC5 /* Login */,
 				9C226D08229FD5C700F49FC5 /* DB */,
 				1C836A63283F3371007FABD2 /* FraudPrevention */,
+				9C21F43322A8F032003AB415 /* Group */,
+				9C119466229D4A13005407ED /* IM */,
+				9C226D10229FD5C800F49FC5 /* Login */,
 				9C226CFB229FB7D000F49FC5 /* ServerAPI */,
+				000579FE27C60B110011D694 /* Translation */,
+				A2C92F9827994CD40011C3F3 /* UltraGroup */,
+				9C22627122B3C6680044FF3D /* Upload */,
+				9C1193D2229CF0AE005407ED /* UserInfo */,
 			);
 			name = Services;
 			path = RCloudMessage/Services;
@@ -2471,16 +2479,16 @@
 			isa = PBXGroup;
 			children = (
 				3BEB4F6322C3805B003923CC /* Message */,
+				3B16DA3522FAA4D200AD2770 /* RCDFriendDescription.h */,
+				3B16DA3622FAA4D200AD2770 /* RCDFriendDescription.m */,
 				9C11946B229D4B78005407ED /* RCDFriendInfo.h */,
 				9C11946A229D4B78005407ED /* RCDFriendInfo.m */,
 				3BB6CDFB22D723460007FFFB /* RCDUserInfo.h */,
 				3BB6CDFC22D723460007FFFB /* RCDUserInfo.m */,
-				79B02A0C22D72FE60062CBA5 /* RCDUserSetting.h */,
-				79B02A0D22D72FE70062CBA5 /* RCDUserSetting.m */,
-				3B16DA3522FAA4D200AD2770 /* RCDFriendDescription.h */,
-				3B16DA3622FAA4D200AD2770 /* RCDFriendDescription.m */,
 				9C1193D4229CF0AE005407ED /* RCDUserInfoManager.h */,
 				9C1193D3229CF0AE005407ED /* RCDUserInfoManager.m */,
+				79B02A0C22D72FE60062CBA5 /* RCDUserSetting.h */,
+				79B02A0D22D72FE70062CBA5 /* RCDUserSetting.m */,
 			);
 			path = UserInfo;
 			sourceTree = "<group>";
@@ -2488,20 +2496,20 @@
 		9C1193D5229CF0AE005407ED /* Utils */ = {
 			isa = PBXGroup;
 			children = (
-				1CDABB0E285C716F008ADE46 /* StringValid */,
-				1C836A4B283F3329007FABD2 /* RCDAlert */,
-				1C836A57283F3329007FABD2 /* SMHelper */,
+				A2A5257722B8B9B9008188A1 /* AlertView */,
+				3B7D8F242232661C009E1417 /* Bugly */,
+				9C1193D9229CF0AE005407ED /* DB */,
+				9C1193D6229CF0AE005407ED /* HTTP */,
 				274E2BF122BB8C770016EE65 /* KxMenu */,
+				3B3DED0C221D62E40079DFE6 /* LanguageUtility */,
+				9C6B962A229E5BA000442B5B /* Pinyin */,
+				A2AD039F22D32E7900F8E64D /* QR */,
+				1C836A4B283F3329007FABD2 /* RCDAlert */,
 				466684341B5DF36E000B7504 /* RCDUtilities.h */,
 				466684351B5DF36E000B7504 /* RCDUtilities.m */,
-				A2AD039F22D32E7900F8E64D /* QR */,
+				1C836A57283F3329007FABD2 /* SMHelper */,
+				1CDABB0E285C716F008ADE46 /* StringValid */,
 				9C2AB78422BA45E300A5459F /* TextFieldValidate */,
-				A2A5257722B8B9B9008188A1 /* AlertView */,
-				9C6B962A229E5BA000442B5B /* Pinyin */,
-				3B3DED0C221D62E40079DFE6 /* LanguageUtility */,
-				3B7D8F242232661C009E1417 /* Bugly */,
-				9C1193D6229CF0AE005407ED /* HTTP */,
-				9C1193D9229CF0AE005407ED /* DB */,
 			);
 			name = Utils;
 			path = RCloudMessage/Utils;
@@ -2510,10 +2518,10 @@
 		9C1193D6229CF0AE005407ED /* HTTP */ = {
 			isa = PBXGroup;
 			children = (
-				9C226CF0229FB17000F49FC5 /* RCDHTTPUtility.h */,
-				9C226CF1229FB17000F49FC5 /* RCDHTTPUtility.m */,
 				9C226CF7229FB1D400F49FC5 /* RCDHTTPResult.h */,
 				9C226CF8229FB1D400F49FC5 /* RCDHTTPResult.m */,
+				9C226CF0229FB17000F49FC5 /* RCDHTTPUtility.h */,
+				9C226CF1229FB17000F49FC5 /* RCDHTTPUtility.m */,
 			);
 			path = HTTP;
 			sourceTree = "<group>";
@@ -2558,10 +2566,10 @@
 			isa = PBXGroup;
 			children = (
 				F16A407E27F3F76200C4B927 /* RCCoreClient+DBPath.h */,
-				9C119467229D4A13005407ED /* RCDRCIMDataSource.h */,
-				9C119468229D4A13005407ED /* RCDRCIMDataSource.m */,
 				A2E4FEF6229F7FF6002B53E7 /* RCDIMService.h */,
 				A2E4FEF7229F7FF6002B53E7 /* RCDIMService.m */,
+				9C119467229D4A13005407ED /* RCDRCIMDataSource.h */,
+				9C119468229D4A13005407ED /* RCDRCIMDataSource.m */,
 			);
 			path = IM;
 			sourceTree = "<group>";
@@ -2657,14 +2665,14 @@
 		9C6B962C229E60EF00442B5B /* Categories */ = {
 			isa = PBXGroup;
 			children = (
+				3B3DED0E221D62E40079DFE6 /* NSBundle+RC.h */,
+				3B3DED0F221D62E40079DFE6 /* NSBundle+RC.m */,
 				276599DF229E95250074FAB2 /* UIColor+RCColor.h */,
 				276599DB229E95250074FAB2 /* UIColor+RCColor.m */,
 				276599DA229E95240074FAB2 /* UIImage+RCImage.h */,
 				276599DE229E95250074FAB2 /* UIImage+RCImage.m */,
 				276599DC229E95250074FAB2 /* UITextFiled+Shake.h */,
 				276599DD229E95250074FAB2 /* UITextFiled+Shake.m */,
-				3B3DED0E221D62E40079DFE6 /* NSBundle+RC.h */,
-				3B3DED0F221D62E40079DFE6 /* NSBundle+RC.m */,
 				A2E705BB22BA1C5E0047DF47 /* UIView+MBProgressHUD.h */,
 				A2E705B422BA1C5D0047DF47 /* UIView+MBProgressHUD.m */,
 			);
@@ -2738,10 +2746,10 @@
 		A216790E22BC867E0095873C /* Message */ = {
 			isa = PBXGroup;
 			children = (
-				A2E705D322BA2E4D0047DF47 /* RCDGroupNotificationMessage.h */,
-				A2E705D422BA2E4D0047DF47 /* RCDGroupNotificationMessage.m */,
 				A28F1E3C22E16AEF007C5814 /* RCDGroupNoticeUpdateMessage.h */,
 				A28F1E3D22E16AEF007C5814 /* RCDGroupNoticeUpdateMessage.m */,
+				A2E705D322BA2E4D0047DF47 /* RCDGroupNotificationMessage.h */,
+				A2E705D422BA2E4D0047DF47 /* RCDGroupNotificationMessage.m */,
 			);
 			path = Message;
 			sourceTree = "<group>";
@@ -3258,10 +3266,10 @@
 		A2C92F9827994CD40011C3F3 /* UltraGroup */ = {
 			isa = PBXGroup;
 			children = (
-				A2C92F9527994C3A0011C3F3 /* RCDUltraGroup.h */,
-				A2C92F9627994C3A0011C3F3 /* RCDUltraGroup.m */,
 				A252715A27A1301500996A73 /* RCDChannel.h */,
 				A252715B27A1301500996A73 /* RCDChannel.m */,
+				A2C92F9527994C3A0011C3F3 /* RCDUltraGroup.h */,
+				A2C92F9627994C3A0011C3F3 /* RCDUltraGroup.m */,
 				A2C92F9927994CEF0011C3F3 /* RCDUltraGroupManager.h */,
 				A2C92F9A27994CEF0011C3F3 /* RCDUltraGroupManager.m */,
 				A252716D27A145B500996A73 /* RCDUltraGroupNotificationMessage.h */,
@@ -3651,6 +3659,7 @@
 				A27AD725265C96C0008D35F7 /* Sources */,
 				A27AD726265C96C0008D35F7 /* Frameworks */,
 				A27AD727265C96C0008D35F7 /* Resources */,
+				EC76F98E7401610FC039F286 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -3666,14 +3675,13 @@
 			buildConfigurationList = E4D40F4E1A031F460045097C /* Build configuration list for PBXNativeTarget "SealTalk" */;
 			buildPhases = (
 				A9A81101CCA7835E3636010D /* [CP] Check Pods Manifest.lock */,
-				2E29FF1D1DC1BBAA00AF2DF0 /* ShellScript */,
 				E4D40F241A031F460045097C /* Sources */,
 				E4D40F251A031F460045097C /* Frameworks */,
 				E4D40F261A031F460045097C /* Resources */,
 				17D7D1E91D534F56000AEC54 /* Embed App Extensions */,
 				C5058288BDE887CC6D4836AD /* [CP] Embed Pods Frameworks */,
 				3B118042256CFF10001E5105 /* Embed Frameworks */,
-				3B446BB1257E297D00E8B0C3 /* ShellScript */,
+				5EBD9A7628E9309DB29FC92B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -3699,6 +3707,7 @@
 				TargetAttributes = {
 					17D7D1D71D534F56000AEC54 = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 9CVMN4UZK4;
 						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
 							com.apple.ApplicationGroups.iOS = {
@@ -3708,10 +3717,12 @@
 					};
 					A27AD728265C96C0008D35F7 = {
 						CreatedOnToolsVersion = 12.4;
+						DevelopmentTeam = 9CVMN4UZK4;
 						ProvisioningStyle = Automatic;
 					};
 					E4D40F271A031F460045097C = {
 						CreatedOnToolsVersion = 6.0.1;
+						DevelopmentTeam = 9CVMN4UZK4;
 						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
 							com.apple.ApplicationGroups.iOS = {
@@ -3868,6 +3879,14 @@
 			remoteRef = A2E705C522BA1D1E0047DF47 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
+		AFC783282AC18F91009D9FF2 /* RongCloudOpenSource */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			name = RongCloudOpenSource;
+			path = RongCloudOpenSource.framework;
+			remoteRef = AFC783272AC18F91009D9FF2 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
 /* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
@@ -3910,6 +3929,44 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		5EBD9A7628E9309DB29FC92B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SealTalk/Pods-SealTalk-resources.sh",
+				"${PODS_ROOT}/RongCloudIM/RongCloudIM/RCConfig.plist",
+				"${PODS_ROOT}/RongCloudOpenSource/Resources/RongCloudiFly.bundle",
+				"${PODS_ROOT}/RongCloudOpenSource/Resources/RongCloud.bundle",
+				"${PODS_ROOT}/RongCloudOpenSource/Resources/en.lproj",
+				"${PODS_ROOT}/RongCloudOpenSource/Resources/zh-Hans.lproj",
+				"${PODS_ROOT}/RongCloudOpenSource/Resources/ar.lproj",
+				"${PODS_ROOT}/RongCloudOpenSource/Resources/Emoji.plist",
+				"${PODS_ROOT}/RongCloudOpenSource/Resources/RCColor.plist",
+				"${PODS_ROOT}/RongCloudOpenSource/Resources/RongCallKit.bundle",
+				"${PODS_ROOT}/RongCloudOpenSource/Resources/RongSticker.bundle",
+				"${PODS_ROOT}/RongCloudRTC/RongCloudRTC/RongRTCLib.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/RCConfig.plist",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/RongCloudiFly.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/RongCloud.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/en.lproj",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/zh-Hans.lproj",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ar.lproj",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Emoji.plist",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/RCColor.plist",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/RongCallKit.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/RongSticker.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/RongRTCLib.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SealTalk/Pods-SealTalk-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		A5B3AF25F49B279150DF10A6 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -3973,6 +4030,15 @@
 				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
 				"${BUILT_PRODUCTS_DIR}/SSZipArchive/SSZipArchive.framework",
 				"${BUILT_PRODUCTS_DIR}/ZXingObjC/ZXingObjC.framework",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/RongCloudIM/ChatRoom/RongChatRoom.framework/RongChatRoom",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/RongCloudIM/CustomerService/RongCustomerService.framework/RongCustomerService",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/RongCloudIM/Discussion/RongDiscussion.framework/RongDiscussion",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/RongCloudIM/IMLib/RongIMLib.framework/RongIMLib",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/RongCloudIM/IMLibCore/RongIMLibCore.framework/RongIMLibCore",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/RongCloudIM/Location/RongLocation.framework/RongLocation",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/RongCloudIM/PublicService/RongPublicService.framework/RongPublicService",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/RongCloudRTC/RongCallLib/RongCallLib.framework/RongCallLib",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/RongCloudRTC/RongRTCLib/RongRTCLib.framework/RongRTCLib",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
@@ -3988,10 +4054,57 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SSZipArchive.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ZXingObjC.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RongChatRoom.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RongCustomerService.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RongDiscussion.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RongIMLib.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RongIMLibCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RongLocation.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RongPublicService.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RongCallLib.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RongRTCLib.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SealTalk/Pods-SealTalk-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EC76F98E7401610FC039F286 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SealTalkNotificationService/Pods-SealTalkNotificationService-resources.sh",
+				"${PODS_ROOT}/RongCloudIM/RongCloudIM/RCConfig.plist",
+				"${PODS_ROOT}/RongCloudOpenSource/Resources/RongCloudiFly.bundle",
+				"${PODS_ROOT}/RongCloudOpenSource/Resources/RongCloud.bundle",
+				"${PODS_ROOT}/RongCloudOpenSource/Resources/en.lproj",
+				"${PODS_ROOT}/RongCloudOpenSource/Resources/zh-Hans.lproj",
+				"${PODS_ROOT}/RongCloudOpenSource/Resources/ar.lproj",
+				"${PODS_ROOT}/RongCloudOpenSource/Resources/Emoji.plist",
+				"${PODS_ROOT}/RongCloudOpenSource/Resources/RCColor.plist",
+				"${PODS_ROOT}/RongCloudOpenSource/Resources/RongCallKit.bundle",
+				"${PODS_ROOT}/RongCloudOpenSource/Resources/RongSticker.bundle",
+				"${PODS_ROOT}/RongCloudRTC/RongCloudRTC/RongRTCLib.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/RCConfig.plist",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/RongCloudiFly.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/RongCloud.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/en.lproj",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/zh-Hans.lproj",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ar.lproj",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Emoji.plist",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/RCColor.plist",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/RongCallKit.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/RongSticker.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/RongRTCLib.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SealTalkNotificationService/Pods-SealTalkNotificationService-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -4474,11 +4587,7 @@
 				HEADER_SEARCH_PATHS = /usr/include/libxml2;
 				INFOPLIST_FILE = SealTalkShareExtension/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@executable_path/../../Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				MARKETING_VERSION = 5.1.9;
 				OTHER_LDFLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = cn.rongcloud.im.shareextension;
@@ -4507,16 +4616,12 @@
 				HEADER_SEARCH_PATHS = /usr/include/libxml2;
 				INFOPLIST_FILE = SealTalkShareExtension/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@executable_path/../../Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				MARKETING_VERSION = 5.1.9;
 				OTHER_LDFLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = cn.rongcloud.im.shareextension;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = $SHARE_PROFILE;
+				PROVISIONING_PROFILE = "$SHARE_PROFILE";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -4539,11 +4644,7 @@
 				HEADER_SEARCH_PATHS = /usr/include/libxml2;
 				INFOPLIST_FILE = SealTalkShareExtension/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@executable_path/../../Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				MARKETING_VERSION = 5.1.9;
 				OTHER_LDFLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = cn.rongcloud.im.shareextension;
@@ -4572,16 +4673,12 @@
 				HEADER_SEARCH_PATHS = /usr/include/libxml2;
 				INFOPLIST_FILE = SealTalkShareExtension/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@executable_path/../../Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				MARKETING_VERSION = 5.1.9;
 				OTHER_LDFLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = cn.rongcloud.im.shareextension;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = $SHARE_PROFILE;
+				PROVISIONING_PROFILE = "$SHARE_PROFILE";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -4625,7 +4722,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_LDFLAGS = "";
@@ -4680,10 +4777,7 @@
 				INFOPLIST_FILE = "$(SRCROOT)/RCloudMessage/Supporting Files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_NO_PIE = NO;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/framework",
@@ -4724,11 +4818,7 @@
 				HEADER_SEARCH_PATHS = /usr/include/libxml2;
 				INFOPLIST_FILE = SealTalkShareExtension/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@executable_path/../../Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				MARKETING_VERSION = 5.1.9;
 				OTHER_LDFLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = cn.rongcloud.rcim.shareextension;
@@ -4779,11 +4869,7 @@
 				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = SealTalkNotificationService/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@executable_path/../../Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				MARKETING_VERSION = 5.1.9;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -4826,7 +4912,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = "";
@@ -4883,10 +4969,7 @@
 				INFOPLIST_FILE = "$(SRCROOT)/RCloudMessage/Supporting Files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_NO_PIE = NO;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/framework",
@@ -4928,11 +5011,7 @@
 				HEADER_SEARCH_PATHS = /usr/include/libxml2;
 				INFOPLIST_FILE = SealTalkShareExtension/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@executable_path/../../Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				MARKETING_VERSION = 5.1.9;
 				OTHER_LDFLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = cn.rongcloud.rcim.shareextension;
@@ -4985,11 +5064,7 @@
 				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = SealTalkNotificationService/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@executable_path/../../Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				MARKETING_VERSION = 5.1.9;
 				MTL_FAST_MATH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = cn.rongcloud.rcim.notificationservice;
@@ -5040,11 +5115,7 @@
 				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = SealTalkNotificationService/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@executable_path/../../Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				MARKETING_VERSION = 5.1.9;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -5094,11 +5165,7 @@
 				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = SealTalkNotificationService/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@executable_path/../../Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				MARKETING_VERSION = 5.1.9;
 				MTL_FAST_MATH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = cn.rongcloud.im.notificationservice;
@@ -5147,11 +5214,7 @@
 				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = SealTalkNotificationService/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@executable_path/../../Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				MARKETING_VERSION = 5.1.9;
 				MTL_FAST_MATH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = cn.rongcloud.im.notificationservice;
@@ -5200,11 +5263,7 @@
 				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = SealTalkNotificationService/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@executable_path/../../Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				MARKETING_VERSION = 5.1.9;
 				MTL_FAST_MATH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = cn.rongcloud.im.notificationservice;
@@ -5251,11 +5310,11 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_LDFLAGS = "";
-				PROVISIONING_PROFILE = $APP_PROFILE;
+				PROVISIONING_PROFILE = "$APP_PROFILE";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -5306,10 +5365,7 @@
 				INFOPLIST_FILE = "$(SRCROOT)/RCloudMessage/Supporting Files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_NO_PIE = NO;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/framework",
@@ -5327,7 +5383,7 @@
 				OTHER_LIBTOOLFLAGS = "$(OTHER_LDFLAGS)";
 				PRODUCT_BUNDLE_IDENTIFIER = cn.rongcloud.im;
 				PRODUCT_NAME = SealTalk;
-				PROVISIONING_PROFILE = $APP_PROFILE;
+				PROVISIONING_PROFILE = "$APP_PROFILE";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -5364,11 +5420,11 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = "";
-				PROVISIONING_PROFILE = $APP_PROFILE;
+				PROVISIONING_PROFILE = "$APP_PROFILE";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -5420,10 +5476,7 @@
 				INFOPLIST_FILE = "$(SRCROOT)/RCloudMessage/Supporting Files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_NO_PIE = NO;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/framework",
@@ -5441,7 +5494,7 @@
 				OTHER_LIBTOOLFLAGS = "$(OTHER_LDFLAGS)";
 				PRODUCT_BUNDLE_IDENTIFIER = cn.rongcloud.im;
 				PRODUCT_NAME = SealTalk;
-				PROVISIONING_PROFILE = $APP_PROFILE;
+				PROVISIONING_PROFILE = "$APP_PROFILE";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -5484,7 +5537,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_LDFLAGS = "";
@@ -5525,7 +5578,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = "";
@@ -5581,10 +5634,7 @@
 				INFOPLIST_FILE = "$(SRCROOT)/RCloudMessage/Supporting Files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_NO_PIE = NO;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/framework",
@@ -5653,10 +5703,7 @@
 				INFOPLIST_FILE = "$(SRCROOT)/RCloudMessage/Supporting Files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_NO_PIE = NO;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/framework",

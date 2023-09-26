@@ -15,7 +15,7 @@
 #import "UIColor+RCColor.h"
 #import <Masonry/Masonry.h>
 #import "RCDUserListCollectionView.h"
-#import <RongIMKit/RongIMKit.h>
+#import <RongCloudOpenSource/RongIMKit.h>
 #import "RCDGroupManager.h"
 #import "RCDGroupMemberCell.h"
 #define CellHeight 56

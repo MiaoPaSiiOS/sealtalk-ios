@@ -6,7 +6,7 @@
 //  Copyright © 2019 RongCloud. All rights reserved.
 //
 
-#import <RongIMLib/RongIMLib.h>
+#import <RongCloudOpenSource/RongIMKit.h>
 extern NSString *_Nullable const RCDChatNotificationOpenScreenNtf;
 extern NSString *_Nullable const RCDChatNotificationCloseScreenNtf;
 extern NSString *_Nullable const RCDChatNotificationSendScreenNtf;

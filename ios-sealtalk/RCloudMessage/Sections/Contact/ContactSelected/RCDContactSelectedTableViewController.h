@@ -7,7 +7,7 @@
 //
 
 #import "RCDViewController.h"
-#import <RongIMLib/RongIMLib.h>
+#import <RongCloudOpenSource/RongIMKit.h>
 
 typedef NS_ENUM(NSUInteger, RCDContactSelectedGroupOptionType) {
     RCDContactSelectedGroupOptionTypeCreate = 0,

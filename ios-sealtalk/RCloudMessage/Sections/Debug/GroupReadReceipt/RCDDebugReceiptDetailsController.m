@@ -7,9 +7,9 @@
 //
 
 #import "RCDDebugReceiptDetailsController.h"
-#import <RongIMLibCore/RongIMLibCore.h>
+#import <RongCloudOpenSource/RongIMKit.h>
 #import "RCDGroupMemberCell.h"
-#import <RongIMKit/RongIMKit.h>
+#import <RongCloudOpenSource/RongIMKit.h>
 #import "NormalAlertView.h"
 #import <MBProgressHUD/MBProgressHUD.h>
 @interface RCDGroupMemberCell ()

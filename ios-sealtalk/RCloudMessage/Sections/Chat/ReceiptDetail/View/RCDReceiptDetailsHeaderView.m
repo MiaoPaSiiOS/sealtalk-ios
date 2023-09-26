@@ -11,7 +11,7 @@
 #import "UIColor+RCColor.h"
 #import "RCDUtilities.h"
 #import <Masonry/Masonry.h>
-#import <RongIMKit/RongIMKit.h>
+#import <RongCloudOpenSource/RongIMKit.h>
 @interface RCDReceiptDetailsHeaderView ()
 
 @property (nonatomic, strong) NSDictionary *CellSubviews;

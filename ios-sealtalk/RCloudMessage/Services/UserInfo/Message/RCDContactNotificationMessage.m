@@ -8,7 +8,7 @@
 
 #import "RCDContactNotificationMessage.h"
 #import "RCDUserInfoManager.h"
-#import <RongIMKit/RCKitCommonDefine.h>
+#import <RongCloudOpenSource/RongIMKit.h>
 @implementation RCDContactNotificationMessage
 
 + (instancetype)notificationWithOperation:(NSString *)operation

@@ -11,7 +11,7 @@
 #import "RCDGroupManager.h"
 #import "RCDUserInfoManager.h"
 #import <SDWebImage/SDWebImage.h>
-#import <RongIMKit/RongIMKit.h>
+#import <RongCloudOpenSource/RongIMKit.h>
 #import "RCDUtilities.h"
 
 @interface RCDGroupNoticeCell ()

@@ -6,7 +6,7 @@
 //  Copyright © 2019 RongCloud. All rights reserved.
 //
 
-#import <RongIMLib/RongIMLib.h>
+#import <RongCloudOpenSource/RongIMKit.h>
 extern NSString *const RCDGroupCreate;
 extern NSString *const RCDGroupMemberAdd;
 extern NSString *const RCDGroupMemberQuit;

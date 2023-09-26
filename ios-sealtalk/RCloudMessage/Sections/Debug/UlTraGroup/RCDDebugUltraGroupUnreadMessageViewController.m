@@ -8,7 +8,7 @@
 
 #import "RCDDebugUltraGroupUnreadMessageViewController.h"
 #import <Masonry/Masonry.h>
-#import <RongIMLibCore/RongIMLibCore.h>
+#import <RongCloudOpenSource/RongIMKit.h>
 
 @interface RCDDebugUltraGroupUnreadMessageViewController()
 // 获取指定超级群下所有频道的未读消息总数接口

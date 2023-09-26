@@ -14,7 +14,7 @@
 #import "RCDCommonString.h"
 #import "RCDLoginManager.h"
 #import "RCDUIBarButtonItem.h"
-#import <RongIMKit/RCKitCommonDefine.h>
+#import <RongCloudOpenSource/RongIMKit.h>
 #import "RCDSearchController.h"
 @interface RCDCountryListController () <UITableViewDelegate, UITableViewDataSource, UISearchControllerDelegate,
                                         UISearchResultsUpdating>

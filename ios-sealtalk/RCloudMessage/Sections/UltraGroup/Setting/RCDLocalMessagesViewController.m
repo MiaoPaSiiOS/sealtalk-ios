@@ -9,7 +9,7 @@
 #import "RCDLocalMessagesViewController.h"
 #import "RCDLocalMessagesView.h"
 #import "RCDAllConversationViewController.h"
-#import <RongIMKit/RongIMKit.h>
+#import <RongCloudOpenSource/RongIMKit.h>
 #import "UIView+MBProgressHUD.h"
 #import "RCDUserInfoManager.h"
 #import "RCDMessageDigestCell.h"

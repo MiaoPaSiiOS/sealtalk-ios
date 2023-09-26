@@ -8,7 +8,7 @@
 
 #import "RCDUltraGroupCell.h"
 #import <Masonry/Masonry.h>
-#import <RongIMKit/RongIMKit.h>
+#import <RongCloudOpenSource/RongIMKit.h>
 @interface RCDUltraGroupCell()
 @property (nonatomic, strong) UIView *unreadView;
 @end

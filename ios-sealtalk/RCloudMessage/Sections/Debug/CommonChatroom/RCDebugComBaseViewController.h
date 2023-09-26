@@ -7,11 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
-#import <RongIMLibCore/RongIMLibCore.h>
+#import <RongCloudOpenSource/RongIMKit.h>
 #import <Masonry/Masonry.h>
 #import <GCDWebServer/GCDWebUploader.h>
-#import <RongIMLibCore/RongIMLibCore.h>
-#import <RongIMKit/RongIMKit.h>
+#import <RongCloudOpenSource/RongIMKit.h>
+#import <RongCloudOpenSource/RongIMKit.h>
 NS_ASSUME_NONNULL_BEGIN
 
 @interface RCDebugComBaseViewController : UIViewController

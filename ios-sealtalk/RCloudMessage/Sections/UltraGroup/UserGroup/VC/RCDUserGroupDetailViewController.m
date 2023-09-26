@@ -13,7 +13,7 @@
 #import "UIView+MBProgressHUD.h"
 #import "RCDUltraGroupManager.h"
 #import "RCDUtilities.h"
-#import <RongIMLibCore/RongIMLibCore.h>
+#import <RongCloudOpenSource/RongIMKit.h>
 
 @interface RCDUserGroupDetailViewController ()<UITableViewDelegate,UITableViewDataSource,
 RCUserGroupStatusDelegate,

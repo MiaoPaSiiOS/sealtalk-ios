@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import <RongIMLibCore/RongIMLibCore.h>
+#import <RongCloudOpenSource/RongIMKit.h>
 #import "RCDebugPushLevelViewController.h"
 
 NS_ASSUME_NONNULL_BEGIN

@@ -18,7 +18,7 @@
 #import "RCDCommonString.h"
 #import "RCDUserInfoManager.h"
 #import "RCDUploadManager.h"
-#import <RongIMKit/RongIMKit.h>
+#import <RongCloudOpenSource/RongIMKit.h>
 #import "RCDSettingGenderViewController.h"
 #import "RCDSetSealTalkNumViewController.h"
 

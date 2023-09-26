@@ -10,7 +10,7 @@
 #import <Masonry/Masonry.h>
 #import "RCDUtilities.h"
 #import <SDWebImage/UIImageView+WebCache.h>
-#import <RongIMKit/RongIMKit.h>
+#import <RongCloudOpenSource/RongIMKit.h>
 @interface RCDGroupManagerCell ()
 @property (nonatomic, strong) UILabel *nameLabel;
 

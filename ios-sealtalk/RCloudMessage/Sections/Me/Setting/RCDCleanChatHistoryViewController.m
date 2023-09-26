@@ -7,7 +7,7 @@
 //
 
 #import "RCDCleanChatHistoryViewController.h"
-#import <RongIMKit/RongIMKit.h>
+#import <RongCloudOpenSource/RongIMKit.h>
 #import "UIColor+RCColor.h"
 #import <Masonry/Masonry.h>
 #import "RCDUIBarButtonItem.h"

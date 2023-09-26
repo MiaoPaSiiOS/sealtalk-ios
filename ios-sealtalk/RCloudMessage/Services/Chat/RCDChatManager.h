@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import <RongIMLib/RongIMLib.h>
+#import <RongCloudOpenSource/RongIMKit.h>
 #import "RCDGroupInfo.h"
 NS_ASSUME_NONNULL_BEGIN
 

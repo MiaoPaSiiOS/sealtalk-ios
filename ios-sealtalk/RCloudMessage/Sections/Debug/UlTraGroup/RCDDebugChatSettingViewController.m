@@ -10,8 +10,8 @@
 
 #import <Masonry/Masonry.h>
 #import <GCDWebServer/GCDWebUploader.h>
-#import <RongIMLibCore/RongIMLibCore.h>
-#import <RongIMKit/RongIMKit.h>
+#import <RongCloudOpenSource/RongIMKit.h>
+#import <RongCloudOpenSource/RongIMKit.h>
 
 #import "RCDBaseSettingTableViewCell.h"
 #import "RCDUIBarButtonItem.h"

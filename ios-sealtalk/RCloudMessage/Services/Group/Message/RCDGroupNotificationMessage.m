@@ -9,7 +9,7 @@
 #import "RCDGroupNotificationMessage.h"
 #import "RCDUserInfoManager.h"
 #import "RCDGroupManager.h"
-#import <RongIMKit/RongIMKit.h>
+#import <RongCloudOpenSource/RongIMKit.h>
 NSString *const RCDGroupCreate = @"Create";
 NSString *const RCDGroupMemberAdd = @"Add";
 NSString *const RCDGroupMemberQuit = @"Quit";

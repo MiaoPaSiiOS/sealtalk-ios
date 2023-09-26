@@ -10,7 +10,7 @@
 #import <Masonry/Masonry.h>
 #import "UIView+MBProgressHUD.h"
 #import "RCDUIBarButtonItem.h"
-#import <RongIMLibCore/RongIMLibCore.h>
+#import <RongCloudOpenSource/RongIMKit.h>
 #import <RongRTCLib/RongRTCLib.h>
 
 #define proxy_setting @"proxy_userdefault_setting"

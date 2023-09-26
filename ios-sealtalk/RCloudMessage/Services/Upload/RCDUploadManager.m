@@ -8,7 +8,7 @@
 
 #import "RCDUploadManager.h"
 #import "RCDUploadAPI.h"
-#import <RongIMKit/RongIMKit.h>
+#import <RongCloudOpenSource/RongIMKit.h>
 
 @implementation RCDUploadManager
 

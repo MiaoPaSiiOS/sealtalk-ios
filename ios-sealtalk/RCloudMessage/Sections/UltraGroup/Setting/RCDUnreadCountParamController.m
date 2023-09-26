@@ -8,7 +8,7 @@
 
 #import "RCDUnreadCountParamController.h"
 #import "RCDUGListView.h"
-#import <RongIMKit/RongIMKit.h>
+#import <RongCloudOpenSource/RongIMKit.h>
 
 NSString *const RCDUnreadCountParamControllerCellIdentifier = @"RCDUnreadCountParamControllerCellIdentifier";
 

@@ -8,7 +8,7 @@
 
 #import "RCDDebugConversationChannelNotificationLevelViewController.h"
 
-#import <RongIMKit/RCAlertView.h>
+#import <RongCloudOpenSource/RongIMKit.h>
 
 @interface RCDDebugConversationChannelNotificationLevelViewController ()
 

@@ -8,7 +8,7 @@
 
 #import "RCDChooseUserController.h"
 #import "RCDUIBarButtonItem.h"
-#import <RongIMKit/RongIMKit.h>
+#import <RongCloudOpenSource/RongIMKit.h>
 #import "RCDUserInfoManager.h"
 #import "RCDGroupMemberCell.h"
 #import "RCDGroupManager.h"

@@ -22,7 +22,7 @@
 #import "RCDCommonString.h"
 #import "RCDIMService.h"
 #import "RCDCustomerEmoticonTab.h"
-#import <RongContactCard/RongContactCard.h>
+#import <RongCloudOpenSource/RongContactCard.h>
 #import "RCDGroupManager.h"
 #import "RCDImageSlideController.h"
 #import "RCDForwardSelectedViewController.h"
@@ -51,8 +51,10 @@
 #import "RealTimeLocationStatusView.h"
 #import "RealTimeLocationViewController.h"
 #import "RealTimeLocationDefine.h"
-#import <RongLocation/RongLocation.h>
+#import <RongCloudOpenSource/RongLocationKit.h>
 #import "RCDSemanticContext.h"
+
+#import <RongChatRoom/RongChatRoom.h>
 
 static const NSInteger kRealTimeMaxParticipants = 5; // 实时位置支持的最大共享人数
 static const char *kRealTimeLocationKey = "kRealTimeLocationKey";
